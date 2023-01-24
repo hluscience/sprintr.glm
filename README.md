@@ -1,1 +1,2 @@
-# sprintr.glm
+# sprintr
+The `sprintr` package implements a computationally efficient method for fitting large-scale interaction models in generalized linear models (GLMs), based on the reluctant principle from [Yu, Bien, and Tibshirani (2021) Reluctant Interaction Modeling](https://arxiv.org/pdf/1907.08414.pdf) and extending it from normal linear models to other GLMs, such as logistic regression, poisson regression, and ordinal logistic regression.

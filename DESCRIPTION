@@ -1,0 +1,24 @@
+Package: sprintr.glm
+Type: Package
+Title: Reluctant Interaction Modeling in Generalized Linear Models
+Version: 1.0
+Date: 2023-01-08
+Author: c(person(given = "Hai",
+           family = "Lu",
+           role = c("aut", "cre"),
+           email = "hailu@ucsb.edu"),
+    person(given = "Guo",
+           family = "Yu",
+           role = "aut",
+           email = "guoyu@ucsb.edu"))
+Maintainer: Hai Lu <hailu@ucsb.edu>
+Description: The sprintr package implements a computationally efficient method for fitting large-scale interaction models in generalized linear models (GLMs), based on the reluctant principle from Yu, Bien, and Tibshirani (2021) Reluctant Interaction Modeling and extending it from normal linear models to other GLMs, such as logistic regression, poisson regression, and ordinal logistic regression.
+License: GPL-3
+Imports: 
+    Rcpp,
+    glmnet,
+    Matrix,
+    RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.2.3
+Encoding: UTF-8
